@@ -1,0 +1,5 @@
+A função é clnt_call() é feita no ficheiro clnt.c sempre que for executado um procedimento (play ,checkwinner ou currentboard).
+A conversão é feita pela função xdr_play_args() no ficheiro ttt_xdr.c.
+Os ficheiros ttt_svc.c,ttt_server.c, ttt_lib.h e ttt_lib.c  pertencem apenas ao servidor, os ficheiros ttt_clnt.c, ttt_client.c, pertencem apenas ao cliente e os ficheiros  ttt.h ttt_xdr.c pertencem a ambos.
+O ficheiro ttt_client.c e ttt_server.c foi modificado de forma a funcionar.
+O protocolo usado é o UDP.
